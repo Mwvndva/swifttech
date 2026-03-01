@@ -1,0 +1,9 @@
+{
+  "name": "swifttech-landing",
+  "version": "1.0.0",
+  "description": "SwiftTech Landing Page",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static HTML'"
+  }
+}

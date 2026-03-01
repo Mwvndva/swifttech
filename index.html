@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>SwiftTech Nairobi | New & Ex UK/US Phones — Apple, Samsung, Xiaomi, JBL</title>
+    <meta name="description"
+        content="Nairobi's premier mobile shop. Quality New & Ex UK/US iPhones, Samsung, Xiaomi & JBL at Sawa Mall, Moi Avenue. Best deals on quality phones in Kenya.">
+    <meta name="keywords"
+        content="phones Nairobi, buy iPhone Nairobi, Samsung Nairobi, ex UK phones Kenya, Sawa Mall phone shop, SwiftTech">
+    <meta name="author" content="SwiftTech">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <link rel="canonical" href="https://swifttech.co.ke/"> <!-- Update with actual domain -->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://swifttech.co.ke/"> <!-- Update with actual domain -->
+    <meta property="og:title" content="SwiftTech Nairobi | Quality New & Ex UK/US Phones">
+    <meta property="og:description"
+        content="Nairobi's premier mobile shop. Quality New & Ex UK/US iPhones, Samsung, Xiaomi & JBL at Sawa Mall, Moi Avenue.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&q=80&w=800">
+    <meta property="og:site_name" content="SwiftTech">
+    <meta property="og:locale" content="en_KE">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://swifttech.co.ke/"> <!-- Update with actual domain -->
+    <meta property="twitter:title" content="SwiftTech Nairobi | Quality New & Ex UK/US Phones">
+    <meta property="twitter:description"
+        content="Nairobi's premier mobile shop. Quality New & Ex UK/US iPhones, Samsung, Xiaomi & JBL at Sawa Mall, Moi Avenue.">
+    <meta property="twitter:image"
+        content="https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&q=80&w=800">
+    <meta property="twitter:site" content="@swift._tech">
+
+    <!-- Local SEO Meta -->
+    <meta name="geo.region" content="KE-30">
+    <meta name="geo.placename" content="Nairobi">
+    <meta name="geo.position" content="-1.2858;36.8235">
+    <meta name="ICBM" content="-1.2858, 36.8235">
+
+    <!-- Favicon (Base64 Cyan S on Black Square) -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='black'/%3E%3Ctext x='16' y='21' font-family='Arial, sans-serif' font-size='20' font-weight='bold' fill='%2300d4ff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+
+    <!-- Google Site Verification Placeholder -->
+    <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE"> -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600;700&family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --black: #000000;
+            --dark: #0a0a0a;
+            --card: #111111;
+            --cyan: #00d4ff;
+            --pink: #ff2d78;
+            --yellow: #ffd60a;
+            --blue: #0066ff;
+            --purple: #bf5af2;
+            --white: #f5f5f7;
+            --gray: #6e6e73;
+            --light-gray: #1d1d1f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--black);
+            color: var(--white);
+            font-family: 'DM Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* NAV */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px) saturate(180%);
+            background: rgba(0, 0, 0, 0.72);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            height: 52px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, var(--cyan), var(--pink), var(--yellow));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 800;
+            color: #000;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-logo span {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 22px;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, var(--cyan), var(--pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: rgba(245, 245, 247, 0.7);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 400;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--white);
+        }
+
+        .nav-cta {
+            background: linear-gradient(135deg, var(--cyan), var(--blue));
+            color: #000 !important;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: 600 !important;
+            font-size: 13px !important;
+            color: #000 !important;
+            -webkit-text-fill-color: #000 !important;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: var(--white);
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+
+        /* HERO */
+        .hero {
+            height: 100vh;
+            min-height: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            padding: 0 24px;
+        }
+
+        .hero-container {
+            width: 100%;
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-text {
+            flex: 1;
+            text-align: left;
+            opacity: 0;
+            animation: fadeRight 0.8s ease forwards 0.3s;
+        }
+
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 600px;
+            opacity: 0;
+            animation: fadeLeft 1s ease forwards 0.5s;
+        }
+
+        .hero-img-1,
+        .hero-img-2 {
+            position: absolute;
+            width: 100%;
+            max-width: 420px;
+            height: auto;
+            filter: drop-shadow(0 20px 50px rgba(0, 212, 255, 0.3));
+        }
+
+        .hero-img-1 {
+            z-index: 2;
+            animation: floatHero1 6s ease-in-out infinite;
+            transform: translateX(-50px);
+        }
+
+        .hero-img-2 {
+            z-index: 1;
+            max-width: 380px;
+            opacity: 0.8;
+            filter: drop-shadow(0 20px 40px rgba(255, 45, 120, 0.2)) blur(1px);
+            animation: floatHero2 7s ease-in-out infinite;
+            transform: translateX(60px) translateY(40px) rotate(-5deg);
+        }
+
+        @keyframes floatHero1 {
+
+            0%,
+            100% {
+                transform: translateX(-50px) translateY(0) rotate(0);
+            }
+
+            50% {
+                transform: translateX(-50px) translateY(-30px) rotate(2deg);
+            }
+        }
+
+        @keyframes floatHero2 {
+
+            0%,
+            100% {
+                transform: translateX(60px) translateY(40px) rotate(-5deg);
+            }
+
+            50% {
+                transform: translateX(60px) translateY(10px) rotate(-2deg);
+            }
+        }
+
+        @keyframes fadeRight {
+            from {
+                opacity: 0;
+                transform: translateX(-40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeLeft {
+            from {
+                opacity: 0;
+                transform: translateX(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 80% 60% at 50% 60%, rgba(0, 212, 255, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 20% 30%, rgba(255, 45, 120, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse 50% 50% at 80% 70%, rgba(255, 214, 10, 0.04) 0%, transparent 50%);
+        }
+
+        .hero-grid {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+            mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+        }
+
+        .hero-eyebrow {
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--cyan);
+            margin-bottom: 20px;
+        }
+
+        .hero-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(64px, 8vw, 120px);
+            line-height: 0.92;
+            letter-spacing: 3px;
+            margin-bottom: 24px;
+        }
+
+        .hero-title .gradient-text {
+            background: linear-gradient(135deg, var(--cyan) 0%, var(--pink) 50%, var(--yellow) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-sub {
+            font-size: clamp(16px, 2.5vw, 22px);
+            font-weight: 300;
+            color: rgba(245, 245, 247, 0.6);
+            max-width: 520px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--cyan), var(--blue));
+            color: #000;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 14px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.04);
+            box-shadow: 0 0 50px rgba(0, 212, 255, 0.5);
+        }
+
+        .btn-ghost {
+            color: var(--cyan);
+            font-size: 15px;
+            font-weight: 500;
+            padding: 14px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            transition: all 0.2s;
+        }
+
+        .btn-ghost:hover {
+            border-color: var(--cyan);
+            background: rgba(0, 212, 255, 0.08);
+        }
+
+        .hero-scroll-hint {
+            position: absolute;
+            bottom: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards 1.2s;
+        }
+
+        .scroll-line {
+            width: 1px;
+            height: 50px;
+            background: linear-gradient(to bottom, var(--cyan), transparent);
+            animation: scrollPulse 1.5s ease-in-out infinite;
+        }
+
+        .scroll-text {
+            font-size: 10px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gray);
+        }
+
+        /* BRAND STRIP */
+        .brand-strip {
+            padding: 24px 0;
+            background: var(--light-gray);
+            overflow: hidden;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .brand-track {
+            display: flex;
+            gap: 60px;
+            animation: scroll 20s linear infinite;
+            width: max-content;
+        }
+
+        .brand-track span {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 20px;
+            letter-spacing: 4px;
+            color: rgba(245, 245, 247, 0.3);
+            white-space: nowrap;
+            transition: color 0.3s;
+        }
+
+        .brand-track span:hover {
+            color: var(--cyan);
+        }
+
+        /* PHONES CAROUSEL */
+        .phones-section {
+            padding: 120px 24px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section-eyebrow {
+            font-size: 12px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--pink);
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+
+        .section-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(40px, 7vw, 80px);
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+            line-height: 1;
+        }
+
+        .section-sub {
+            font-size: 17px;
+            color: var(--gray);
+            font-weight: 300;
+            margin-bottom: 64px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .carousel-wrapper {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .carousel-track {
+            display: flex;
+            gap: 24px;
+            padding: 20px 0 40px;
+            animation: carouselScroll 30s linear infinite;
+            width: max-content;
+        }
+
+        .carousel-track:hover {
+            animation-play-state: paused;
+        }
+
+        .phone-card {
+            flex-shrink: 0;
+            width: 280px;
+            background: rgba(17, 17, 17, 0.8);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            /* slightly higher visibility */
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .phone-card:hover {
+            transform: translateY(-12px) scale(1.02);
+            border-color: rgba(0, 212, 255, 0.5);
+            box-shadow: 0 20px 60px rgba(0, 212, 255, 0.2);
+        }
+
+        .phone-img {
+            width: 100%;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .phone-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .phone-img::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(17, 17, 17, 1) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .phone-card:hover .phone-img img {
+            transform: scale(1.08);
+        }
+
+        .phone-info {
+            padding: 24px;
+            text-align: left;
+            position: relative;
+            z-index: 2;
+            margin-top: -60px;
+            /* Bring info over the image gradient */
+        }
+
+        .phone-brand {
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gray);
+            margin-bottom: 4px;
+        }
+
+        .phone-name {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--white);
+        }
+
+        .phone-tag {
+            display: inline-block;
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+
+        .tag-new {
+            background: rgba(0, 212, 255, 0.15);
+            color: var(--cyan);
+        }
+
+        .tag-ex {
+            background: rgba(255, 214, 10, 0.15);
+            color: var(--yellow);
+        }
+
+        .tag-hot {
+            background: rgba(255, 45, 120, 0.15);
+            color: var(--pink);
+        }
+
+        /* FEATURES */
+        .features-section {
+            padding: 120px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 64px;
+        }
+
+        .feature-card {
+            background: var(--card);
+            border-radius: 28px;
+            padding: 40px 36px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.12);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+        }
+
+        .feature-card:nth-child(1)::before {
+            background: linear-gradient(90deg, var(--cyan), transparent);
+        }
+
+        .feature-card:nth-child(2)::before {
+            background: linear-gradient(90deg, var(--pink), transparent);
+        }
+
+        .feature-card:nth-child(3)::before {
+            background: linear-gradient(90deg, var(--yellow), transparent);
+        }
+
+        .feature-card:nth-child(4)::before {
+            background: linear-gradient(90deg, var(--blue), transparent);
+        }
+
+        .feature-icon {
+            font-size: 36px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .feature-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .feature-desc {
+            font-size: 15px;
+            color: var(--gray);
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        /* ABOUT / LOCATION */
+        .about-section {
+            padding: 120px 24px;
+            background: var(--light-gray);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse 60% 80% at 0% 50%, rgba(0, 212, 255, 0.05) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .about-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .about-content .label {
+            font-size: 12px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--yellow);
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+
+        .about-content h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(40px, 5vw, 64px);
+            letter-spacing: 2px;
+            line-height: 1;
+            margin-bottom: 24px;
+        }
+
+        .about-content p {
+            font-size: 17px;
+            color: rgba(245, 245, 247, 0.65);
+            line-height: 1.7;
+            font-weight: 300;
+            margin-bottom: 16px;
+        }
+
+        .about-details {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px 24px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: border-color 0.2s;
+        }
+
+        .detail-item:hover {
+            border-color: rgba(0, 212, 255, 0.2);
+        }
+
+        .detail-icon {
+            font-size: 22px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .detail-label {
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--gray);
+            margin-bottom: 4px;
+        }
+
+        .detail-value {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--white);
+            line-height: 1.5;
+        }
+
+        .detail-value a {
+            color: var(--cyan);
+            text-decoration: none;
+        }
+
+        /* STATS */
+        .stats-section {
+            padding: 80px 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 24px;
+            overflow: hidden;
+        }
+
+        .stat-item {
+            padding: 48px 32px;
+            background: var(--card);
+            text-align: center;
+        }
+
+        .stat-num {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 56px;
+            letter-spacing: 2px;
+            background: linear-gradient(135deg, var(--cyan), var(--pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: var(--gray);
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+
+        /* CONTACT / CTA */
+        .cta-section {
+            padding: 120px 24px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 70% 70% at 50% 50%, rgba(0, 212, 255, 0.07) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .cta-section h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(48px, 8vw, 96px);
+            letter-spacing: 3px;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+            color: var(--gray);
+            margin-bottom: 48px;
+            font-weight: 300;
+        }
+
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+        }
+
+        .contact-pill {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            border-radius: 50px;
+            background: var(--card);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            text-decoration: none;
+            color: var(--white);
+            font-size: 15px;
+            transition: all 0.2s;
+        }
+
+        .contact-pill:hover {
+            border-color: var(--cyan);
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--cyan);
+            transform: translateY(-2px);
+        }
+
+        .contact-pill span {
+            font-size: 18px;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 40px 24px;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 28px;
+            letter-spacing: 4px;
+            background: linear-gradient(90deg, var(--cyan), var(--pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+        }
+
+        .footer-tagline {
+            font-size: 12px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gray);
+            margin-bottom: 24px;
+        }
+
+        .footer-copy {
+            font-size: 12px;
+            color: rgba(110, 110, 115, 0.7);
+        }
+
+        /* ANIMATIONS */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scrollPulse {
+
+            0%,
+            100% {
+                opacity: 0.4;
+                transform: scaleY(0.8);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scaleY(1);
+            }
+        }
+
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes carouselScroll {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* MOBILE */
+        @media (max-width: 992px) {
+            .hero-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 40px;
+            }
+
+            .hero-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero-btns {
+                justify-content: center;
+            }
+
+            .hero-image {
+                height: 450px;
+            }
+
+            .hero-img-1 {
+                max-width: 280px;
+                transform: translateX(-30px);
+            }
+
+            .hero-img-2 {
+                max-width: 250px;
+                transform: translateX(40px) translateY(30px) rotate(-5deg);
+            }
+
+            @keyframes floatHero1 {
+
+                0%,
+                100% {
+                    transform: translateX(-30px) translateY(0) rotate(0);
+                }
+
+                50% {
+                    transform: translateX(-30px) translateY(-20px) rotate(2deg);
+                }
+            }
+
+            @keyframes floatHero2 {
+
+                0%,
+                100% {
+                    transform: translateX(40px) translateY(30px) rotate(-5deg);
+                }
+
+                50% {
+                    transform: translateX(40px) translateY(10px) rotate(-2deg);
+                }
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                top: 52px;
+                left: 0;
+                right: 0;
+                background: rgba(0, 0, 0, 0.95);
+                backdrop-filter: blur(20px);
+                padding: 24px;
+                gap: 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            }
+
+            .about-inner {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .phone-card {
+                width: 180px;
+            }
+
+            .phone-img {
+                height: 200px;
+            }
+
+            .phone-silhouette {
+                font-size: 80px;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "SwiftTech",
+      "image": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&q=80&w=800",
+      "@id": "https://swifttech.co.ke/",
+      "url": "https://swifttech.co.ke/",
+      "telephone": "+254743583642",
+      "priceRange": "KES",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sawa Mall, Moi Avenue, Shop C18",
+        "addressLocality": "Nairobi",
+        "postalCode": "00100",
+        "addressCountry": "KE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -1.2858,
+        "longitude": 36.8235
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/swift._tech/"
+      ],
+      "description": "Nairobi's premier mobile shop. Quality New & Ex UK/US iPhones, Samsung, Xiaomi & JBL at Sawa Mall, Moi Avenue."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Apple iPhones"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Samsung Galaxy Phones"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Xiaomi Redmi Phones"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "JBL Audio Products"
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://swifttech.co.ke/"
+      }]
+    }
+    </script>
+
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">
+            <div class="nav-logo-icon">S</div>
+            <span>swifttech</span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#phones" aria-label="View our collection of phones">Phones</a></li>
+            <li><a href="#features" aria-label="Why choose SwiftTech">Why Us</a></li>
+            <li><a href="#about" aria-label="Learn more about SwiftTech">About</a></li>
+            <li><a href="#contact" class="nav-cta" aria-label="Contact SwiftTech">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle Navigation Menu">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-container">
+            <div class="hero-text">
+                <div class="hero-eyebrow">Nairobi's Premier Mobile Shop</div>
+                <h1 class="hero-title">
+                    QUALITY<br>
+                    <span class="gradient-text">CONNECTIONS</span>
+                </h1>
+                <p class="hero-sub">New and Ex UK/US phones. Apple, Samsung, Xiaomi, JBL and more — delivered with trust
+                    from
+                    Sawa Mall.</p>
+                <div class="hero-btns">
+                    <a href="#phones" class="btn-primary" aria-label="Shop for phones now">Shop Phones</a>
+                    <a href="tel:254743583642" class="btn-ghost" aria-label="Call SwiftTech at +254 743 583 642">Call Us
+                        →</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&q=80&w=800"
+                    alt="Blue Apple iPhone 15 Pro featured at SwiftTech Nairobi" class="hero-img-1">
+                <img src="https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?auto=format&fit=crop&q=80&w=800"
+                    alt="Natural Titanium Apple iPhone 15 Pro at SwiftTech Shop, Sawa Mall" class="hero-img-2">
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <div class="scroll-line"></div>
+            <div class="scroll-text">Scroll</div>
+        </div>
+    </section>
+
+    <!-- BRAND STRIP -->
+    <div class="brand-strip">
+        <div class="brand-track">
+            <span>APPLE</span>
+            <span>SAMSUNG</span>
+            <span>XIAOMI</span>
+            <span>JBL</span>
+            <span>EX UK/US</span>
+            <span>QUALITY CONNECTIONS</span>
+            <span>APPLE</span>
+            <span>SAMSUNG</span>
+            <span>XIAOMI</span>
+            <span>JBL</span>
+            <span>EX UK/US</span>
+            <span>QUALITY CONNECTIONS</span>
+            <span>APPLE</span>
+            <span>SAMSUNG</span>
+            <span>XIAOMI</span>
+            <span>JBL</span>
+            <span>EX UK/US</span>
+            <span>QUALITY CONNECTIONS</span>
+        </div>
+    </div>
+
+    <!-- PHONES CAROUSEL -->
+    <section class="phones-section" id="phones">
+        <div class="reveal">
+            <div class="section-eyebrow">Our Collection</div>
+            <h2 class="section-title">PHONES THAT<br><span
+                    style="background: linear-gradient(135deg, var(--cyan), var(--pink)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">MOVE
+                    YOU</span></h2>
+            <p class="section-sub">New and Ex UK/US handsets. Every phone inspected, tested, and ready to go.</p>
+        </div>
+
+        <div class="carousel-wrapper">
+            <div class="carousel-track" id="carousel">
+
+                <!-- Cards duplicated for infinite loop -->
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=600"
+                            alt="Apple iPhone 15 Pro - Premium Smartphone at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Apple</div>
+                        <div class="phone-name">iPhone 15 Pro</div>
+                        <span class="phone-tag tag-new">New</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600"
+                            alt="Samsung Galaxy S25 - Latest Feature at SwiftTech Shop">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Samsung</div>
+                        <div class="phone-name">Galaxy S25</div>
+                        <span class="phone-tag tag-hot">Hot 🔥</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=600"
+                            alt="Apple iPhone 14 - Ex UK Quality Phone in Nairobi">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Apple</div>
+                        <div class="phone-name">iPhone 14</div>
+                        <span class="phone-tag tag-ex">Ex UK</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600"
+                            alt="Xiaomi Mi 14 Ultra - High Performance at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Xiaomi</div>
+                        <div class="phone-name">14 Ultra</div>
+                        <span class="phone-tag tag-new">New</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600"
+                            alt="Samsung Galaxy A55 - Ex US Import at SwiftTech Nairobi">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Samsung</div>
+                        <div class="phone-name">Galaxy A55</div>
+                        <span class="phone-tag tag-ex">Ex US</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600"
+                            alt="Apple iPhone 13 - Verified Ex UK Status at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Apple</div>
+                        <div class="phone-name">iPhone 13</div>
+                        <span class="phone-tag tag-ex">Ex UK</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1546054454-aa26e2b734c7?auto=format&fit=crop&q=80&w=600"
+                            alt="Xiaomi Redmi Note 13 - Hot Deal at SwiftTech Shop Nairobi">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Xiaomi</div>
+                        <div class="phone-name">Redmi Note 13</div>
+                        <span class="phone-tag tag-hot">Hot 🔥</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=600"
+                            alt="JBL Tune 510BT - Quality Wireless Audio at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">JBL</div>
+                        <div class="phone-name">Tune 510BT</div>
+                        <span class="phone-tag tag-new">New</span>
+                    </div>
+                </div>
+
+                <!-- Duplicate for loop -->
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=600"
+                            alt="Apple iPhone 15 Pro - Premium Smartphone at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Apple</div>
+                        <div class="phone-name">iPhone 15 Pro</div>
+                        <span class="phone-tag tag-new">New</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600"
+                            alt="Samsung Galaxy S25 - Latest Feature at SwiftTech Shop">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Samsung</div>
+                        <div class="phone-name">Galaxy S25</div>
+                        <span class="phone-tag tag-hot">Hot 🔥</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=600"
+                            alt="Apple iPhone 14 - Ex UK Quality Phone in Nairobi">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Apple</div>
+                        <div class="phone-name">iPhone 14</div>
+                        <span class="phone-tag tag-ex">Ex UK</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600"
+                            alt="Xiaomi Mi 14 Ultra - High Performance at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Xiaomi</div>
+                        <div class="phone-name">14 Ultra</div>
+                        <span class="phone-tag tag-new">New</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600"
+                            alt="Samsung Galaxy A55 - Ex US Import at SwiftTech Nairobi">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Samsung</div>
+                        <div class="phone-name">Galaxy A55</div>
+                        <span class="phone-tag tag-ex">Ex US</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600"
+                            alt="Apple iPhone 13 - Verified Ex UK Status at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Apple</div>
+                        <div class="phone-name">iPhone 13</div>
+                        <span class="phone-tag tag-ex">Ex UK</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1546054454-aa26e2b734c7?auto=format&fit=crop&q=80&w=600"
+                            alt="Xiaomi Redmi Note 13 - Hot Deal at SwiftTech Shop Nairobi">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">Xiaomi</div>
+                        <div class="phone-name">Redmi Note 13</div>
+                        <span class="phone-tag tag-hot">Hot 🔥</span>
+                    </div>
+                </div>
+
+                <div class="phone-card">
+                    <div class="phone-img">
+                        <img src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=600"
+                            alt="JBL Tune 510BT - Quality Wireless Audio at SwiftTech">
+                    </div>
+                    <div class="phone-info">
+                        <div class="phone-brand">JBL</div>
+                        <div class="phone-name">Tune 510BT</div>
+                        <span class="phone-tag tag-new">New</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section reveal">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-num">28K+</div>
+                <div class="stat-label">Social Followers</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-num">582+</div>
+                <div class="stat-label">Products Listed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-num">100%</div>
+                <div class="stat-label">Quality Checked</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features-section" id="features">
+        <div class="reveal" style="text-align:center;">
+            <div class="section-eyebrow">Why SwiftTech</div>
+            <h2 class="section-title">THE <span
+                    style="background: linear-gradient(135deg,var(--yellow),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">SWIFT</span>
+                DIFFERENCE</h2>
+            <p class="section-sub">We don't just sell phones — we build lasting connections.</p>
+        </div>
+
+        <div class="features-grid reveal">
+            <div class="feature-card">
+                <span class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 24 24" fill="none" stroke="var(--cyan)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg></span>
+                <div class="feature-title">Quality Guaranteed</div>
+                <p class="feature-desc">Every device is thoroughly inspected and tested before it reaches your hands.
+                    New and Ex UK/US phones to the highest standard.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 24 24" fill="none" stroke="var(--pink)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                    </svg></span>
+                <div class="feature-title">Ex UK & US Imports</div>
+                <p class="feature-desc">We source directly from the UK and US markets, bringing you premium devices at
+                    accessible prices right here in Nairobi.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg></span>
+                <div class="feature-title">Walk-in Welcome</div>
+                <p class="feature-desc">Find us at Sawa Mall along Moi Avenue, Shop C18. Come in, touch, feel, and
+                    choose the perfect device for you.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg></span>
+                <div class="feature-title">Always Reachable</div>
+                <p class="feature-desc">Call, text, or DM us anytime. Our team is responsive, knowledgeable and always
+                    ready to help you find the right device.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT + CONTACT INFO -->
+    <section class="about-section" id="about">
+        <div class="about-inner">
+            <div class="about-content reveal">
+                <div class="label">Our Story</div>
+                <h2>MORE THAN<br>JUST A<br>PHONE SHOP</h2>
+                <p>SwiftTech was built on one idea: that everyone in Nairobi deserves access to quality devices at
+                    honest prices. We're a mobile phone shop with deep roots in the community and a passion for
+                    technology.</p>
+                <p>From flagship iPhones to budget Xiaomis, from JBL audio to Samsung's latest — we've got the gadget
+                    that fits your life.</p>
+            </div>
+            <div class="about-details reveal">
+                <div class="detail-item">
+                    <div class="detail-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="var(--cyan)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg></div>
+                    <div>
+                        <div class="detail-label">Location</div>
+                        <div class="detail-value">Sawa Mall, Moi Avenue<br>Nairobi — Shop C18</div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="var(--pink)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg></div>
+                    <div>
+                        <div class="detail-label">Call / Text / DM</div>
+                        <div class="detail-value"><a href="tel:254743583642" aria-label="Call +254 743 583 642">0743 583
+                                642</a></div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg></div>
+                    <div>
+                        <div class="detail-label">Instagram</div>
+                        <div class="detail-value"><a href="https://instagram.com/swift._tech" target="_blank"
+                                aria-label="Follow SwiftTech on Instagram">@swift._tech</a></div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z">
+                            </path>
+                            <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                        </svg></div>
+                    <div>
+                        <div class="detail-label">Brands</div>
+                        <div class="detail-value">Apple · Samsung · Xiaomi · JBL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="contact">
+        <div class="reveal">
+            <div class="section-eyebrow">Get In Touch</div>
+            <h2>READY TO<br><span
+                    style="background: linear-gradient(135deg,var(--cyan),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">CONNECT?</span>
+            </h2>
+            <p>Walk in, call, or slide into our DMs. We're here for you.</p>
+            <div class="contact-grid">
+                <a href="tel:254743583642" class="contact-pill" aria-label="Call SwiftTech at +254 743 583 642">
+                    <span style="display:flex;align-items:center;margin-right:4px;"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg></span> Call 0743 583 642
+                </a>
+                <a href="sms:254743583642" class="contact-pill" aria-label="Send an SMS to SwiftTech">
+                    <span style="display:flex;align-items:center;margin-right:4px;"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg></span> Text Us
+                </a>
+                <a href="https://instagram.com/swift._tech" target="_blank" class="contact-pill"
+                    aria-label="Visit SwiftTech's Instagram profile">
+                    <span style="display:flex;align-items:center;margin-right:4px;"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg></span> @swift._tech
+                </a>
+                <a href="https://maps.google.com/?q=Sawa+Mall+Moi+Avenue+Nairobi" target="_blank" class="contact-pill"
+                    aria-label="View SwiftTech on Google Maps">
+                    <span style="display:flex;align-items:center;margin-right:4px;"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg></span> Sawa Mall, Shop C18
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">SWIFTTECH</div>
+        <div class="footer-tagline">Quality Connections</div>
+        <div class="footer-copy">© 2025 SwiftTech. Sawa Mall, Moi Avenue, Nairobi — Shop C18. Apple · Samsung · Xiaomi ·
+            JBL</div>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('open');
+        }
+
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Stagger children
+                    const children = entry.target.children;
+                    Array.from(children).forEach((child, i) => {
+                        child.style.transitionDelay = (i * 0.1) + 's';
+                    });
+                }
+            });
+        }, { threshold: 0.15 });
+
+        reveals.forEach(el => observer.observe(el));
+
+        // Nav background on scroll
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.style.background = 'rgba(0,0,0,0.92)';
+            } else {
+                nav.style.background = 'rgba(0,0,0,0.72)';
+            }
+        });
+
+        // Close nav on link click
+        document.querySelectorAll('#navLinks a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
